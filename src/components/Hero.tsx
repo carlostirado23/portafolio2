@@ -12,9 +12,9 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="static flex items-center justify-center min-h-screen overflow-hidden bg-gradient-to-br from-white via-primary-light/10 to-white dark:from-dark-bg dark:via-primary/10 dark:to-dark-bg"
+      className="relative flex items-center justify-center min-h-screen overflow-hidden bg-gradient-to-br from-white via-primary-light/10 to-white dark:from-dark-bg dark:via-primary/10 dark:to-dark-bg"
     >
-      <div className="relative z-10 px-4 py-20 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="relative z-10 px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <motion.div
             initial={{ scale: 0, rotate: -180 }}
@@ -35,7 +35,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-4 text-5xl font-bold text-transparent md:text-7xl bg-gradient-to-r from-gray-900 via-primary to-primary-dark dark:from-white dark:via-primary-light dark:to-primary bg-clip-text"
           >
-            Desarrollador Full Stack
+            Desarrollador Web
           </motion.h1>
 
           <motion.p
@@ -44,7 +44,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="max-w-2xl mx-auto mb-8 text-xl text-gray-600 md:text-2xl dark:text-gray-300"
           >
-            Especializado en React, Node.js y Arquitectura Backend
+            Especializado en Golang, Node.js, React y Arquitectura Backend
           </motion.p>
 
           <motion.div
@@ -66,7 +66,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/cv.pdf"
+              href="https://drive.google.com/uc?export=download&id=1Ea1uqf_nT46RuRHruMckLA_2zfRHUvcy"
               download
               className="flex items-center gap-2 px-8 py-4 font-semibold text-gray-900 transition-all duration-300 bg-white border-2 shadow-lg dark:bg-dark-card dark:text-white border-primary rounded-2xl hover:bg-primary-light dark:hover:bg-primary/20"
             >

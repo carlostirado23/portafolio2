@@ -26,7 +26,7 @@ export default function Navbar() {
     };
 
     return (
-        <header className="sticky z-50 flex justify-between w-full max-w-xs px-6 py-2 mx-auto rounded-full shadow-lg top-4 bg-gray-100/30 dark:bg-dark-bg/30 backdrop-blur-sm md:max-w-5xl md:w-auto">
+        <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50 flex items-center justify-between w-[95%] max-w-5xl px-6 py-2 rounded-full shadow-lg bg-gray-100/30 dark:bg-dark-bg/30 backdrop-blur-md">
             {/* Nombre en desktop, icono animado en mobile */}
             <div className="flex items-center">
                 {/* Desktop: Nombre */}

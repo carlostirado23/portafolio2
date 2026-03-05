@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { FaGolang } from "react-icons/fa6";
 import {
   Code2,
   FileJson,
@@ -8,8 +9,7 @@ import {
   Database,
   Palette,
   GitBranch,
-  Shield,
-  BarChart3,
+  Shield
 } from 'lucide-react';
 
 const Technologies = () => {
@@ -28,6 +28,12 @@ const Technologies = () => {
       icon: FileJson,
       color: 'from-blue-600 to-blue-400',
       description: 'Type-safe JavaScript',
+    },
+    {
+      name: 'Golang',
+      icon: FaGolang , 
+      color: 'from-blue-800 to-green-400',
+      description: 'Lenguaje de programación eficiente',
     },
     {
       name: 'Node.js',
@@ -65,37 +71,31 @@ const Technologies = () => {
       color: 'from-purple-600 to-pink-500',
       description: 'Authentication',
     },
-    {
-      name: 'Power BI',
-      icon: BarChart3,
-      color: 'from-yellow-500 to-orange-500',
-      description: 'Business Intelligence',
-    },
   ];
 
   return (
     <section
       id="technologies"
       ref={ref}
-      className="py-20 bg-gray-50 dark:bg-dark-card relative overflow-hidden"
+      className="relative py-20 overflow-hidden bg-gray-50 dark:bg-dark-card"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="mb-12 text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-gray-900 to-primary dark:from-white dark:to-primary-light bg-clip-text text-transparent">
+          <h2 className="font-bold text-transparent tex4-4xl mb-9 md:text-5xl bg-gradient-to-r from-gray-900 to-primary dark:from-white dark:to-primary-light bg-clip-text">
             Tecnologías
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary to-primary-dark mx-auto rounded-full"></div>
-          <p className="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <div className="w-20 h-1 mx-auto rounded-full bg-gradient-to-r from-primary to-primary-dark"></div>
+          <p className="max-w-2xl mx-auto mt-6 text-lg text-gray-600 dark:text-gray-400">
             Herramientas y tecnologías que domino para crear soluciones completas
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {technologies.map((tech, index) => (
             <motion.div
               key={tech.name}
@@ -106,7 +106,7 @@ const Technologies = () => {
                 y: -10,
                 boxShadow: '0 25px 50px -12px rgba(168, 85, 247, 0.25)',
               }}
-              className="group bg-white dark:bg-dark-bg p-6 rounded-2xl shadow-lg border border-gray-100 dark:border-dark-border hover:border-primary dark:hover:border-primary transition-all duration-300 cursor-pointer"
+              className="p-6 transition-all duration-300 bg-white border border-gray-100 shadow-lg cursor-pointer group dark:bg-dark-bg rounded-2xl dark:border-dark-border hover:border-primary dark:hover:border-primary"
             >
               <div className="flex flex-col items-center text-center">
                 <motion.div
@@ -116,7 +116,7 @@ const Technologies = () => {
                 >
                   <tech.icon size={32} />
                 </motion.div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors duration-300">
+                <h3 className="mb-2 text-xl font-bold text-gray-900 transition-colors duration-300 dark:text-white group-hover:text-primary">
                   {tech.name}
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
