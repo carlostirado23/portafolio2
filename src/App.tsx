@@ -21,7 +21,7 @@ function App() {
       <footer className="py-8 border-t border-gray-200 bg-gray-50 dark:bg-dark-card dark:border-dark-border">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <p className="text-center text-gray-600 dark:text-gray-400">
-            © 2024 Carlos Tirado. Todos los derechos reservados.
+            © 2026 Carlos Tirado. Todos los derechos reservados.
           </p>
         </div>
       </footer>
