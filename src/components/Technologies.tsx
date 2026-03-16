@@ -33,7 +33,7 @@ const Technologies = () => {
       name: 'Golang',
       icon: FaGolang , 
       color: 'from-blue-800 to-green-400',
-      description: 'Lenguaje de programación eficiente',
+      description: 'Efficient programming language',
     },
     {
       name: 'Node.js',
