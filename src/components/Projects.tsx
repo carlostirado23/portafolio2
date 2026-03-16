@@ -15,7 +15,7 @@ const Projects = () => {
           image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
           technologies: ["Node.js", "PostgreSQL", "Express", "JWT"],
           github: "https://github.com/carlostirado23/applus",
-          demo: "https://applus-six.vercel.app/",
+          demo: "#",
       },
       {
           title: "API de Gestión Contable y de Votos",
@@ -24,7 +24,7 @@ const Projects = () => {
           image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
           technologies: ["Node.js", "Express", "Firebase", "JWT"],
           github: "https://github.com/carlostirado23/ipuc-backend",
-          demo: "https://ipuc-node.vercel.app/",
+          demo: "#",
       },
       {
           title: "Sistema de Gestión Contable y Votaciones",
