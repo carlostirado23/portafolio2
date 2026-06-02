@@ -18,13 +18,13 @@ const Projects = () => {
           demo: "#",
       },
       {
-          title: "API de Gestión Contable y de Votos",
+          title: "Panquesú – App Web de Panadería",
           description:
-              "Backend para la administración de registros financieros, aportes y procesos de votación, con generación de estadísticas para dashboards y control de acceso mediante JSON Web Token (JWT).",
-          image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
-          technologies: ["Node.js", "Express", "Firebase", "JWT"],
-          github: "https://github.com/carlostirado23/ipuc-backend",
-          demo: "#",
+              "Página web oficial de Panquesú, panadería artesanal de Montería, Colombia. Incluye menú interactivo, carta de productos con modal de detalle, sección de sedes y botón de contacto por WhatsApp.",
+          image: "https://i.pinimg.com/736x/16/16/7b/16167b96768d852db99a2cf2e36ab735.jpg",
+          technologies: ["React", "JavaScript", "Tailwind CSS"],
+          github: "https://github.com/carlostirado23/panquesu",
+          demo: "https://panquesu.vercel.app/",
       },
       {
           title: "Sistema de Gestión Contable y Votaciones",
