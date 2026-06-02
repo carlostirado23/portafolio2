@@ -21,7 +21,7 @@ const Projects = () => {
           title: "Panquesú – App Web de Panadería",
           description:
               "Página web oficial de Panquesú, panadería artesanal de Montería, Colombia. Incluye menú interactivo, carta de productos con modal de detalle, sección de sedes y botón de contacto por WhatsApp.",
-          image: "https://i.pinimg.com/736x/16/16/7b/16167b96768d852db99a2cf2e36ab735.jpg",
+          image: "https://i.pinimg.com/736x/81/bf/8f/81bf8f3d99bfd46cd31dadf19ee70701.jpg",
           technologies: ["React", "JavaScript", "Tailwind CSS"],
           github: "https://github.com/carlostirado23/panquesu",
           demo: "https://panquesu.vercel.app/",
