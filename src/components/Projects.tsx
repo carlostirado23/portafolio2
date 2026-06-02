@@ -18,6 +18,15 @@ const Projects = () => {
           demo: "#",
       },
       {
+          title: "API de Gestión Contable y de Votos",
+          description:
+              "Backend para la administración de registros financieros, aportes y procesos de votación, con generación de estadísticas para dashboards y control de acceso mediante JSON Web Token (JWT).",
+          image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
+          technologies: ["Node.js", "Express", "Firebase", "JWT"],
+          github: "https://github.com/carlostirado23/ipuc-backend",
+          demo: "#",
+      },
+      {
           title: "Panquesú – App Web de Panadería",
           description:
               "Página web oficial de Panquesú, panadería artesanal de Montería, Colombia. Incluye menú interactivo, carta de productos con modal de detalle, sección de sedes y botón de contacto por WhatsApp.",
@@ -25,15 +34,6 @@ const Projects = () => {
           technologies: ["React", "JavaScript", "Tailwind CSS"],
           github: "https://github.com/carlostirado23/panquesu",
           demo: "https://panquesu.vercel.app/",
-      },
-      {
-          title: "Sistema de Gestión Contable y Votaciones",
-          description:
-              "Aplicación web con dashboard interactivo para visualizar aportes, ofrendas y estadísticas de votaciones.",
-          image: "https://i.pinimg.com/736x/20/03/2f/20032f95421ccb87fbf661de862f2cff.jpg",
-          technologies: ["React", "TypeScript", "Tailwind", "Chart.js"],
-          github: "https://github.com/carlostirado23/ipuc-front",
-          demo: "#",
       },
       {
           title: "Sistema de Programación de Tareas",
