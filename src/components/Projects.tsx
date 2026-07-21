@@ -9,13 +9,13 @@ const Projects = () => {
 
   const projects = [
       {
-          title: "API de Programación de Tareas",
+          title: "Sistema de Gestión para Modistas",
           description:
-              "Plataforma web para programar y asignar tareas a técnicos, con carga masiva desde Excel, validación de registros y control de acceso mediante JSON Web Token (JWT).",
-          image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
-          technologies: ["Node.js", "PostgreSQL", "Express", "JWT"],
-          github: "https://github.com/carlostirado23/applus",
-          demo: "#",
+              "Aplicación web fullstack para talleres de costura: clientas, medidas, órdenes de trabajo, pagos y fotos de referencia, con dashboard de métricas y recordatorios de entrega.",
+          image: "https://i.pinimg.com/736x/f8/ec/96/f8ec960f1764fdae5d1bc4be8cea8d3f.jpg",
+          technologies: ["React", "Node.js", "PostgreSQL", "Prisma"],
+          github: "#",
+          demo: "https://modista-frontend-seven.vercel.app/",
       },
       {
           title: "API de Gestión Contable y de Votos",
@@ -23,7 +23,7 @@ const Projects = () => {
               "Backend para la administración de registros financieros, aportes y procesos de votación, con generación de estadísticas para dashboards y control de acceso mediante JSON Web Token (JWT).",
           image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
           technologies: ["Node.js", "Express", "Firebase", "JWT"],
-          github: "https://github.com/carlostirado23/ipuc-backend",
+          github: "https://github.com/carlostirado23/ipuc-node",
           demo: "#",
       },
       {
