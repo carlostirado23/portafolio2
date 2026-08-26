@@ -66,7 +66,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/uc?export=download&id=1Ea1uqf_nT46RuRHruMckLA_2zfRHUvcy"
+              href="https://drive.google.com/file/d/14_scaqabyuzAL2KJGzqz7wiYKW_0FsNJ/view?usp=sharing"
               download
               className="flex items-center gap-2 px-8 py-4 font-semibold text-gray-900 transition-all duration-300 bg-white border-2 shadow-lg dark:bg-dark-card dark:text-white border-primary rounded-2xl hover:bg-primary-light dark:hover:bg-primary/20"
             >
