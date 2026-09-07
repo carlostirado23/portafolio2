@@ -36,13 +36,13 @@ const Projects = () => {
           demo: "https://panquesu.vercel.app/",
       },
       {
-          title: "Sistema de Programación de Tareas",
+          title: "Sistema POS Multitienda (SaaS)",
           description:
-              "Aplicación web para la gestión y asignación de tareas a técnicos, con carga masiva desde Excel y validación de registros.",
-          image: "https://i.pinimg.com/736x/bd/59/a5/bd59a544c1316a72a182547507272917.jpg",
-          technologies: ["React", "JavaScript", "Tailwind"],
-          github: "https://github.com/carlostirado23/applus-front",
-          demo: "#",
+              "Plataforma SaaS de punto de venta multiempresa/multitienda: gestión de ventas, inventario, roles dinámicos por permisos, planes de suscripción y reportes exportables a Excel, con impresión de tickets ESC/POS.",
+          image: "https://i.pinimg.com/736x/f8/76/0c/f8760cfeaf0d2b3ea1721904a4122fbc.jpg",
+          technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma"],
+          github: "#",
+          demo: "https://pos-frontend-psi-one.vercel.app/",
       },
       {
           title: "API de Compresión y Empaquetado de Imágenes",
