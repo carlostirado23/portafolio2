@@ -18,13 +18,13 @@ const Projects = () => {
           demo: "https://modista-frontend-seven.vercel.app/",
       },
       {
-          title: "API de Gestión Contable y de Votos",
+          title: "Portal de Documentos Clínicos con Login OTP",
           description:
-              "Backend para la administración de registros financieros, aportes y procesos de votación, con generación de estadísticas para dashboards y control de acceso mediante JSON Web Token (JWT).",
-          image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800",
-          technologies: ["Node.js", "Express", "Firebase", "JWT"],
-          github: "https://github.com/carlostirado23/ipuc-node",
-          demo: "#",
+              "Plataforma para que pacientes consulten y descarguen sus documentos médicos (conceptos, paraclínicos, exámenes) en PDF, con autenticación sin contraseña mediante código temporal enviado por correo y descargas protegidas con tokens firmados de un solo uso.",
+          image: "https://i.pinimg.com/736x/a6/e7/00/a6e700f5402054585f471750748216a9.jpg",
+          technologies: ["Node.js", "Express", "PostgreSQL", "Sequelize", "JWT"],
+          github: "https://github.com/carlostirado23/prueba-tecnica",
+          demo: "https://prueba-tecnica-frontend-nine.vercel.app/",
       },
       {
           title: "Panquesú – App Web de Panadería",
